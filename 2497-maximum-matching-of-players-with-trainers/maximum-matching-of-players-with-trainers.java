@@ -5,9 +5,10 @@ class Solution {
        int i=0 ,j=0,  count=0;
        while(i<players.length && j<trainers.length){
         if(players[i]<= trainers[j]){
+            count++;
+
             i++;
             j++;
-            count++;
         }else{
             j++;
         }
